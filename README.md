@@ -1,1 +1,0 @@
-# hanteoglobal-project
