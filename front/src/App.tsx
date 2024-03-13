@@ -10,7 +10,7 @@ import {
   NotFoundPage,
 } from './pages';
 
-import Layout from './components/LayOut/Layout';
+import Layout from './components/Layout/Layout';
 import { PATH } from './global/constants';
 
 const router = createBrowserRouter([
