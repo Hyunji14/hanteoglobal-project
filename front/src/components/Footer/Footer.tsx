@@ -1,3 +1,5 @@
+import * as S from './Footer.styles';
+
 export default function Footer() {
-  return <div>I'm Footer</div>;
+  return <S.Container>I'm Footer</S.Container>;
 }

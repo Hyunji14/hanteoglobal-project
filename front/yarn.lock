@@ -762,6 +762,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tanstack/query-core@npm:5.27.5":
+  version: 5.27.5
+  resolution: "@tanstack/query-core@npm:5.27.5"
+  checksum: 10c0/e0a06216de04c2b62d278a666c16ac9dc3cad82d97202ca87ecfb09272912e508a4d365947f98ef4f2d53d46d7a1c1d1011e05d3a9da1e50ba70419e7a385bd7
+  languageName: node
+  linkType: hard
+
+"@tanstack/react-query@npm:^5.27.5":
+  version: 5.27.5
+  resolution: "@tanstack/react-query@npm:5.27.5"
+  dependencies:
+    "@tanstack/query-core": "npm:5.27.5"
+  peerDependencies:
+    react: ^18.0.0
+  checksum: 10c0/2ca456e763d94b454ab6d6506b8b033863bcf1095fd2925edd29ef88bca4de23acec0d24507f9aa7ef737d0cb1298ee97f011470e19131312a32f832b4c10ff0
+  languageName: node
+  linkType: hard
+
 "@types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
@@ -2112,6 +2130,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "front@workspace:."
   dependencies:
+    "@tanstack/react-query": "npm:^5.27.5"
     "@types/react": "npm:^18.2.64"
     "@types/react-dom": "npm:^18.2.21"
     "@types/react-router-dom": "npm:^5.3.3"
@@ -2127,6 +2146,7 @@ __metadata:
     react-dom: "npm:^18.2.0"
     react-router-dom: "npm:^6.22.3"
     styled-components: "npm:^6.1.8"
+    styled-reset: "npm:^4.5.2"
     typescript: "npm:^5.2.2"
     vite: "npm:^5.1.6"
   languageName: unknown
@@ -3501,6 +3521,15 @@ __metadata:
     react: ">= 16.8.0"
     react-dom: ">= 16.8.0"
   checksum: 10c0/fafe4b9198d5d7980c2358821d1a89f86200d55c8eec03670cf12cf43b8a05a77eafaf0872cd85821f68238308e0f5c9d9aa43a62e6987c65b70baa2c3277ab8
+  languageName: node
+  linkType: hard
+
+"styled-reset@npm:^4.5.2":
+  version: 4.5.2
+  resolution: "styled-reset@npm:4.5.2"
+  peerDependencies:
+    styled-components: ">=4.0.0 || >=5.0.0 || >=6.0.0"
+  checksum: 10c0/3e15586d2b4c1c37c473058747269d20ee4dcd88205718cec8f7c9c3b2cb99a220eddd958c073d1d9179e7b9682f6d601048fe62753ea789d661989d27bc8e00
   languageName: node
   linkType: hard
 

@@ -1,4 +1,6 @@
-export { default as ChargePage } from './charge/ChargePage';
+export { default as MainPage } from './MainPage';
+export { default as CategoryPage } from './CategoryPage';
+
 export { default as ChartPage } from './chart/ChartPage';
 export { default as EventsPage } from './events/EventsPage';
 export { default as NewsPage } from './news/NewsPage';

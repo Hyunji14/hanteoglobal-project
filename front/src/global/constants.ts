@@ -1,8 +1,4 @@
 export const PATH = {
   main: '/',
-  charge: '/charge',
-  events: '/events',
-  news: '/news',
-  store: '/store',
-  whook: '/whooks',
+  category: (categoryId: string) => `/${categoryId}`,
 } as const;

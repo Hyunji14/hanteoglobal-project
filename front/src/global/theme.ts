@@ -2,6 +2,8 @@ const colors = {
   textPirmary: '#332126',
   background: '#FFFBF7',
   main: '#FFB1B2',
+  point: '#FF579A',
+  gray: '#E1E1E1',
 };
 
 const size = {

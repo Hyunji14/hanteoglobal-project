@@ -1,14 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import {
-  ChargePage,
-  ChartPage,
-  EventsPage,
-  NewsPage,
-  StorePage,
-  WhookPage,
-  NotFoundPage,
-} from './pages';
+import { MainPage, CategoryPage, NotFoundPage } from './feature';
 
 import Layout from './components/Layout/Layout';
 import { PATH } from './global/constants';
@@ -17,27 +9,8 @@ const router = createBrowserRouter([
   {
     element: <Layout />,
     children: [
-      { path: PATH.main, element: <ChartPage /> },
-      {
-        path: PATH.charge,
-        element: <ChargePage />,
-      },
-      {
-        path: PATH.events,
-        element: <EventsPage />,
-      },
-      {
-        path: PATH.news,
-        element: <NewsPage />,
-      },
-      {
-        path: PATH.store,
-        element: <StorePage />,
-      },
-      {
-        path: PATH.whook,
-        element: <WhookPage />,
-      },
+      { path: PATH.main, element: <MainPage /> },
+      { path: PATH.category(':categoryId'), element: <CategoryPage /> },
     ],
   },
   {
