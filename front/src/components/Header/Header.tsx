@@ -1,3 +1,5 @@
+import * as S from './Header.styles';
+
 export default function Header() {
-  return <div>I'm Header</div>;
+  return <S.Container>I'm Header</S.Container>;
 }
