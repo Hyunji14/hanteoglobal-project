@@ -4,6 +4,7 @@ const colors = {
   main: '#FFB1B2',
   point: '#FF579A',
   gray: '#E1E1E1',
+  darkgray: '#333333',
 };
 
 const size = {

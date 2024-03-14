@@ -10,4 +10,5 @@ export const queryClient = new QueryClient({
 
 export const queryKeys = {
   category: 'CATEGORY',
+  banner: 'BANNER',
 };
