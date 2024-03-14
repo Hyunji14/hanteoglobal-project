@@ -27,12 +27,138 @@
     "isProgress": false
   },
   {
-    "title": "[M COUNTDOWN] 3월 3주차 엠카 글로벌 사전 투표",
-    "url": "https://www.mnetplus.world/ko/",
-    "imgUrl": "src/assets/img/mcount.png",
+    "title": "[Whooks] 글로벌 케이팝 팬덤 채팅 서비스",
+    "url": "https://play.google.com/store/apps/details?id=com.hanteo.whosfanglobal&hl=ko&gl=US",
+    "imgUrl": "src/assets/img/whooks.jpeg",
     "buttonActive": true,
-    "contents": "2024.03.11 ~ 2024.03.18 00:00 (KST)",
-    "categoryId": "3",
+    "contents": "후즈팬에서 팬덤 친구를 사겨볼까요?👀",
+    "categoryId": "1",
     "isProgress": true
+  },
+  {
+    "title": "[Whooks] 팬덤 채팅 서비스 대규모 업데이트 완료",
+    "url": "https://star.fnnews.com/article/202204141108578164",
+    "imgUrl": "src/assets/img/whosfan2.png",
+    "buttonActive": true,
+    "contents": "후즈팬 대규모 업데이트 완료 ✨",
+    "categoryId": "1",
+    "isProgress": false
+  },
+  {
+    "title": "[안내] Whook & 후즈팬 고객 문의",
+    "url": "https://hanteo.zendesk.com/hc/ko",
+    "imgUrl": "src/assets/img/whosfan3.jpeg",
+    "buttonActive": true,
+    "contents": "서비스 관련 공지는 여기서 확인해 주세요 📌",
+    "categoryId": "1",
+    "isProgress": false
+  },
+  {
+    "title": "[POP-UP] NewJeans 팝업스토어 오픈",
+    "url": "https://www.magazineidole.com/post/%EC%83%88%EB%A1%9C%EC%9A%B4-k-pop-%EB%AC%B8%ED%99%94%EA%B3%B5%EA%B0%84-%EC%95%84%EC%9D%B4%EB%8F%8C-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4",
+    "imgUrl": "src/assets/img/event1.png",
+    "buttonActive": true,
+    "contents": "데뷔 기념! 뉴진스의 팝업스토어 오픈🎊",
+    "categoryId": "2",
+    "isProgress": true
+  },
+  {
+    "title": "[POP-UP] NCT x 산리오 팝업스토어",
+    "url": "https://www.magazineidole.com/post/%EC%83%88%EB%A1%9C%EC%9A%B4-k-pop-%EB%AC%B8%ED%99%94%EA%B3%B5%EA%B0%84-%EC%95%84%EC%9D%B4%EB%8F%8C-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4",
+    "imgUrl": "src/assets/img/event2.png",
+    "buttonActive": true,
+    "contents": "NCT 멤버들의 ‘짝꿍 아이템’ 같이 찾을 사람? 🙋‍♀️",
+    "categoryId": "2",
+    "isProgress": true
+  },
+  {
+    "title": "[POP-UP] IN THE SOOP 팝업스토어 ",
+    "url": "https://www.magazineidole.com/post/%EC%83%88%EB%A1%9C%EC%9A%B4-k-pop-%EB%AC%B8%ED%99%94%EA%B3%B5%EA%B0%84-%EC%95%84%EC%9D%B4%EB%8F%8C-%ED%8C%9D%EC%97%85%EC%8A%A4%ED%86%A0%EC%96%B4",
+    "imgUrl": "src/assets/img/event3.png",
+    "buttonActive": true,
+    "contents": "둘 셋! 도심 속으로 힐링하러 가보자🐨🐹🐱🐿🐣🐻🐰",
+    "categoryId": "2",
+    "isProgress": false
+  },
+  {
+    "title": "[NEWS] 케이팝 딥 다이브 딕셔너리 : 세븐틴",
+    "url": "https://www.hanteonews.com/ko/article/fans?fc=61702",
+    "imgUrl": "src/assets/img/news.png",
+    "buttonActive": true,
+    "contents": "[GOING SEVENTEEN] & 용용 죽겠지 탐구🔎",
+    "categoryId": "3",
+    "isProgress": false
+  },
+  {
+    "title": "[NEWS] 위콘페 1차 라인업 공개",
+    "url": "https://www.hanteonews.com/ko/article/okei%20(beta)?fc=61700",
+    "imgUrl": "src/assets/img/news.png",
+    "buttonActive": true,
+    "contents": "2024.03.14 위콘페 1차 라인업 공개!",
+    "categoryId": "3",
+    "isProgress": false
+  },
+  {
+    "title": "[NEWS] 웬디(WENDY)의 Wish You Hell 1위",
+    "url": "https://www.hanteonews.com/ko/article/bot%20news?fc=61690",
+    "imgUrl": "src/assets/img/news.png",
+    "buttonActive": true,
+    "contents": "웬디(WENDY)의 Wish You Hell : 미니 앨범 2집 1위",
+    "categoryId": "3",
+    "isProgress": false
+  },
+  {
+    "title": "[WhoFans] K-POP 굿즈 온라인 스토어",
+    "url": "https://whosfanstore.com/v1?shop=kpop",
+    "imgUrl": "src/assets/img/whofanshop.png",
+    "buttonActive": true,
+    "contents": "다양한 K-POP 앨범과 굿즈들을 만나보세요! 🍀",
+    "categoryId": "4",
+    "isProgress": true
+  },
+  {
+    "title": "[MUSIC SCALE] K-POP 앨범 & 굿즈 온라인 스토어",
+    "url": "https://musicscale.co.kr/",
+    "imgUrl": "src/assets/img/whofanshop.png",
+    "buttonActive": true,
+    "contents": "한터 패밀리로 구입 시, 한터 차트 반영까지🥳",
+    "categoryId": "4",
+    "isProgress": false
+  },
+  {
+    "title": "[MOKKET] 김남주 2nd 앨범 예약 특전 이벤트",
+    "url": "https://mokketshop.com/",
+    "imgUrl": "src/assets/img/whofanshop.png",
+    "buttonActive": true,
+    "contents": "특전도 챙기고! 한터 패밀리로 구입하고! 한터 차트 반영까지!🤩",
+    "categoryId": "4",
+    "isProgress": false
+  },
+  {
+    "title": "[Naver Pay] 네이버 페이로 빠르고 간편하게!",
+    "url": "https://www.naver.com/",
+    "imgUrl": "src/assets/img/npay.png",
+    "buttonActive": true,
+    "contents": "네이버 포인트까지 두둑하게 챙기기💵",
+    "categoryId": "5",
+    "isProgress": false
+  },
+  {
+    "title": "[SAMSAUNG pay] 핸드폰 하나로 쉽게!",
+    "url": "https://www.samsung.com/sec/samsung-pay/home/",
+    "imgUrl": "src/assets/img/spay.png",
+    "buttonActive": true,
+    "contents": "핸드폰만 있으면 프리패스😎",
+    "categoryId": "5",
+    "isProgress": false
+  },
+  {
+    "title": "[Kakao pay] 송금도 결제도 쉽게! ",
+    "url": "https://www.kakaopay.com/",
+    "imgUrl": "src/assets/img/kpay.png",
+    "buttonActive": true,
+    "contents": "제가 충전 속도 한 빠름 하거든요😏",
+    "categoryId": "5",
+    "isProgress": false
   }
 ]
