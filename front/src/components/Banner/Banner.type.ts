@@ -5,4 +5,5 @@ export type BannerType = {
   buttonActive: boolean;
   contents: string;
   categoryId: string;
+  isProgress: boolean;
 };

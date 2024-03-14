@@ -43,6 +43,7 @@ export default function Banner({ categoryId }: BannerProps) {
         {banners.map((banner) => {
           return (
             <S.SlideCard key={`${categoryId}_${banner.title}`}>
+              {banner.isProgress && <S.ProgressTag>진행중</S.ProgressTag>}
               <img src={banner.imgUrl} />
               <S.CardTitleContainer>
                 <S.CardTitle>{banner.title}</S.CardTitle>

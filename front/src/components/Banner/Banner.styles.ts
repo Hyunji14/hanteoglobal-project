@@ -6,10 +6,28 @@ export const Container = styled.div`
   margin: 15px 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16), 0 2px 2px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+  position: relative;
 
-  button {
+  .slick-arrow {
     display: none !important;
   }
+`;
+
+export const ProgressTag = styled.div`
+  position: fixed;
+  top: 10px;
+  margin-left: 8px;
+  width: 60px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: ${({ theme }) => theme.colors.point};
+  color: white;
+  font-weight: 700;
+  border-radius: 10%;
 `;
 
 export const SlideCard = styled.div`
