@@ -41,11 +41,8 @@ export default function Banner({ categoryId }: BannerProps) {
     <S.Container>
       <Slider {...settings}>
         {banners.map((banner) => {
-          {
-            console.log(banners.length);
-          }
           return (
-            <S.SlideCard>
+            <S.SlideCard key={`${categoryId}_${banner.title}`}>
               <img src={banner.imgUrl} />
               <S.CardTitleContainer>
                 <S.CardTitle>{banner.title}</S.CardTitle>

@@ -1,0 +1,121 @@
+[
+  {
+    "categoryId": "0",
+    "list": [
+      {
+        "title": "밤양갱",
+        "contents": "BIBI",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9974.75"
+      },
+      {
+        "title": "첫 만남은 계획되로 되지 않아",
+        "contents": "TWS",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9899.00"
+      },
+      {
+        "title": "나는 아픈 건 딱 질색이니까",
+        "contents": "(G)I-DLE",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9823.25"
+      },
+      {
+        "title": "EASY",
+        "contents": "LE SSERAFIM",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9671.75"
+      },
+      {
+        "title": "Love wins all",
+        "contents": "IU",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9570.73"
+      },
+      {
+        "title": "홀씨",
+        "contents": "IU",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9469.68"
+      },
+      {
+        "title": "To. X",
+        "contents": "TAEYEON",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9318.15"
+      },
+      {
+        "title": "비의 랩소디",
+        "contents": "임재현",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "9141.40"
+      },
+      {
+        "title": "Perfect Night",
+        "contents": "LE SSERAFIM",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8964.65"
+      },
+      {
+        "title": "Love 119",
+        "contents": "RIIZE",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8661.60"
+      },
+      {
+        "title": "헤어지자 말해요",
+        "contents": "박재정",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8358.58"
+      },
+      {
+        "title": "에피소드",
+        "contents": "이무진",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8333.33"
+      },
+      {
+        "title": "Wife",
+        "contents": "(G)I-DLE",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8282.83"
+      },
+      {
+        "title": "Shopper",
+        "contents": "IU",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8257.58"
+      },
+      {
+        "title": "Smart",
+        "contents": "LE SSERAFIM",
+        "imgUrl": "src/assets/img/logo.png",
+        "digitalIndex": "8257.57"
+      }
+    ]
+  },
+  {
+    "categoryId": "1",
+    "list": []
+  },
+  {
+    "categoryId": "2",
+    "list": []
+  },
+  {
+    "categoryId": "3",
+    "list": []
+  },
+  {
+    "categoryId": "4",
+    "list": []
+  },
+  {
+    "categoryId": "5",
+    "list": []
+  },
+  {
+    "categoryId": "6",
+    "list": []
+  }
+]

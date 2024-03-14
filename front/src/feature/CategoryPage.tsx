@@ -3,6 +3,7 @@ import { Suspense } from 'react';
 
 import Category from '@/components/Category/Category';
 import Banner from '@/components/Banner/Banner';
+import Contents from '@/components/Contents/Contents';
 import { Loading } from '@/components/Loading';
 
 export default function CategoryPage() {
@@ -13,6 +14,7 @@ export default function CategoryPage() {
       <Suspense fallback={<Loading />}>
         <Category categoryId={categoryId!} />
         <Banner categoryId={categoryId!} />
+        <Contents categoryId={categoryId!} />
       </Suspense>
     </>
   );

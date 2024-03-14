@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
-import Footer from '../Footer/Footer';
 import * as S from './Layout.styles';
+import Footer from '../Footer/Footer';
 
 export default function Layout() {
   return (
