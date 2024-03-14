@@ -1,0 +1,34 @@
+[
+  {
+    "title": "[M COUNTDOWN] 3월 3주차 엠카 글로벌 사전 투표",
+    "url": "https://www.mnetplus.world/ko/",
+    "imgUrl": "src/assets/img/mcount.png",
+    "buttonActive": true,
+    "contents": "2024.03.11 ~ 2024.03.18 00:00 (KST)",
+    "categoryId": "0"
+  },
+  {
+    "title": "[Hanteo] 한터 실시간 디지털 차트 순위",
+    "url": "https://hanteochart.com/chart/digital/real",
+    "imgUrl": "src/assets/img/hanteoChart.png",
+    "buttonActive": true,
+    "contents": "실시간으로 집계되는 차트 순위를 확인해 보세요 :)",
+    "categoryId": "0"
+  },
+  {
+    "title": "[HMA] HANTEO MUSIC AWARDS",
+    "url": "https://awards.hanteo.com/?l=ko&m=false",
+    "imgUrl": "src/assets/img/hma.png",
+    "buttonActive": true,
+    "contents": "2024.02.17 ~ 2024.02.18 Seoul, South Korea DDP",
+    "categoryId": "0"
+  },
+  {
+    "title": "[M COUNTDOWN] 3월 3주차 엠카 글로벌 사전 투표",
+    "url": "https://www.mnetplus.world/ko/",
+    "imgUrl": "src/assets/img/mcount.png",
+    "buttonActive": true,
+    "contents": "2024.03.11 ~ 2024.03.18 00:00 (KST)",
+    "categoryId": "3"
+  }
+]

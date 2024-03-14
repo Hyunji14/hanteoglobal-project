@@ -1,5 +1,5 @@
 import * as S from './Category.styles';
-import { useHeader } from './Category.hooks';
+import { useCategory } from './Category.hooks';
 import { useNavigate } from 'react-router-dom';
 
 interface CategoryProps {
@@ -7,16 +7,12 @@ interface CategoryProps {
 }
 
 export default function Category({ categoryId }: CategoryProps) {
-  const { categories } = useHeader();
+  const { categories } = useCategory();
   const navigate = useNavigate();
 
   return (
     <S.Container>
       {categories.map((category) => {
-        {
-          console.log('??', categoryId);
-          console.log(typeof categoryId.length);
-        }
         return (
           <S.Category
             key={category._id}
@@ -29,7 +25,6 @@ export default function Category({ categoryId }: CategoryProps) {
           </S.Category>
         );
       })}
-      {/* <S.Header>I'm Header</S.Header> */}
     </S.Container>
   );
 }
