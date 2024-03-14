@@ -3,6 +3,8 @@ const colors = {
   background: '#FFFBF7',
   main: '#FFB1B2',
   point: '#FF579A',
+  pink: '#FF6F80',
+  darkbrown: '#994853',
   gray: '#E1E1E1',
   darkgray: '#333333',
 };
