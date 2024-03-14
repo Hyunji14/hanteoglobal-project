@@ -6,6 +6,10 @@ export const Container = styled.div`
   margin: 15px 0;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16), 0 2px 2px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+
+  button {
+    display: none !important;
+  }
 `;
 
 export const SlideCard = styled.div`
