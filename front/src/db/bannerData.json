@@ -5,7 +5,7 @@
     "imgUrl": "src/assets/img/mcount.png",
     "buttonActive": true,
     "contents": "2024.03.11 ~ 2024.03.18 00:00 (KST)",
-    "categoryId": "0",
+    "categoryId": "chart",
     "isProgress": true
   },
   {
@@ -14,7 +14,7 @@
     "imgUrl": "src/assets/img/hanteoChart.png",
     "buttonActive": true,
     "contents": "실시간으로 집계되는 차트 순위를 확인해 보세요 :)",
-    "categoryId": "0",
+    "categoryId": "chart",
     "isProgress": true
   },
   {
@@ -23,7 +23,7 @@
     "imgUrl": "src/assets/img/hma.png",
     "buttonActive": true,
     "contents": "2024.02.17 ~ 2024.02.18 Seoul, South Korea DDP",
-    "categoryId": "0",
+    "categoryId": "chart",
     "isProgress": false
   },
   {
@@ -32,7 +32,7 @@
     "imgUrl": "src/assets/img/whooks.jpeg",
     "buttonActive": true,
     "contents": "후즈팬에서 팬덤 친구를 사겨볼까요?👀",
-    "categoryId": "1",
+    "categoryId": "whook",
     "isProgress": true
   },
   {
@@ -41,7 +41,7 @@
     "imgUrl": "src/assets/img/whosfan2.png",
     "buttonActive": true,
     "contents": "후즈팬 대규모 업데이트 완료 ✨",
-    "categoryId": "1",
+    "categoryId": "whook",
     "isProgress": false
   },
   {
@@ -50,7 +50,7 @@
     "imgUrl": "src/assets/img/whosfan3.jpeg",
     "buttonActive": true,
     "contents": "서비스 관련 공지는 여기서 확인해 주세요 📌",
-    "categoryId": "1",
+    "categoryId": "whook",
     "isProgress": false
   },
   {
@@ -59,7 +59,7 @@
     "imgUrl": "src/assets/img/event1.png",
     "buttonActive": true,
     "contents": "데뷔 기념! 뉴진스의 팝업스토어 오픈🎊",
-    "categoryId": "2",
+    "categoryId": "event",
     "isProgress": true
   },
   {
@@ -68,7 +68,7 @@
     "imgUrl": "src/assets/img/event2.png",
     "buttonActive": true,
     "contents": "NCT 멤버들의 ‘짝꿍 아이템’ 같이 찾을 사람? 🙋‍♀️",
-    "categoryId": "2",
+    "categoryId": "event",
     "isProgress": true
   },
   {
@@ -77,7 +77,7 @@
     "imgUrl": "src/assets/img/event3.png",
     "buttonActive": true,
     "contents": "둘 셋! 도심 속으로 힐링하러 가보자🐨🐹🐱🐿🐣🐻🐰",
-    "categoryId": "2",
+    "categoryId": "event",
     "isProgress": false
   },
   {
@@ -86,7 +86,7 @@
     "imgUrl": "src/assets/img/news.png",
     "buttonActive": true,
     "contents": "[GOING SEVENTEEN] & 용용 죽겠지 탐구🔎",
-    "categoryId": "3",
+    "categoryId": "news",
     "isProgress": false
   },
   {
@@ -95,7 +95,7 @@
     "imgUrl": "src/assets/img/news.png",
     "buttonActive": true,
     "contents": "2024.03.14 위콘페 1차 라인업 공개!",
-    "categoryId": "3",
+    "categoryId": "news",
     "isProgress": false
   },
   {
@@ -104,7 +104,7 @@
     "imgUrl": "src/assets/img/news.png",
     "buttonActive": true,
     "contents": "웬디(WENDY)의 Wish You Hell : 미니 앨범 2집 1위",
-    "categoryId": "3",
+    "categoryId": "news",
     "isProgress": false
   },
   {
@@ -113,7 +113,7 @@
     "imgUrl": "src/assets/img/whofanshop.png",
     "buttonActive": true,
     "contents": "다양한 K-POP 앨범과 굿즈들을 만나보세요! 🍀",
-    "categoryId": "4",
+    "categoryId": "store",
     "isProgress": true
   },
   {
@@ -122,7 +122,7 @@
     "imgUrl": "src/assets/img/whofanshop.png",
     "buttonActive": true,
     "contents": "한터 패밀리로 구입 시, 한터 차트 반영까지🥳",
-    "categoryId": "4",
+    "categoryId": "store",
     "isProgress": false
   },
   {
@@ -131,7 +131,7 @@
     "imgUrl": "src/assets/img/whofanshop.png",
     "buttonActive": true,
     "contents": "특전도 챙기고! 한터 패밀리로 구입하고! 한터 차트 반영까지!🤩",
-    "categoryId": "4",
+    "categoryId": "store",
     "isProgress": false
   },
   {
@@ -140,7 +140,7 @@
     "imgUrl": "src/assets/img/npay.png",
     "buttonActive": true,
     "contents": "네이버 포인트까지 두둑하게 챙기기💵",
-    "categoryId": "5",
+    "categoryId": "charge",
     "isProgress": false
   },
   {
@@ -149,7 +149,7 @@
     "imgUrl": "src/assets/img/spay.png",
     "buttonActive": true,
     "contents": "핸드폰만 있으면 프리패스😎",
-    "categoryId": "5",
+    "categoryId": "charge",
     "isProgress": false
   },
   {
@@ -158,7 +158,7 @@
     "imgUrl": "src/assets/img/kpay.png",
     "buttonActive": true,
     "contents": "제가 충전 속도 한 빠름 하거든요😏",
-    "categoryId": "5",
+    "categoryId": "charge",
     "isProgress": false
   }
 ]

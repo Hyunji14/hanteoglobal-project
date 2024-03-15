@@ -22,10 +22,4 @@ export const useContents = (categoryId: string) => {
   });
 
   return { ...results, setTarget };
-
-  //   const { data: contents } = useSuspenseQuery<ContentType[], Error>({
-  //     queryKey: [queryKeys.contents, categoryId],
-  //     queryFn: () => ContentsAPI.getContents({ cursor: 0, limit: 4, categoryId }),
-  //   });
-  //   return { contents };
 };

@@ -6,7 +6,7 @@ export const Container = styled.div`
   margin-top: 35px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 `;
 
 export const ContentBox = styled.div`
@@ -37,6 +37,10 @@ export const ContentTitle = styled.p`
   font-family: PretendardBold;
   font-size: 18px;
   font-weight: 700;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+
   color: ${({ theme }) => theme.colors.darkbrown};
 `;
 

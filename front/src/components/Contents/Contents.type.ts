@@ -3,6 +3,6 @@ export type ContentType = {
     title: string;
     contents: string;
     imgUrl: string;
-    digitalIndex?: string;
+    digitalIndex: string;
   }[];
 };

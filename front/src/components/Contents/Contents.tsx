@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Loading } from '../Loading';
 import { useContents } from './Contents.hooks';
 import * as S from './Contents.styles';
@@ -8,13 +9,14 @@ interface ContentsProps {
 
 export default function Contents({ categoryId }: ContentsProps) {
   const { data, setTarget, hasNextPage } = useContents(categoryId);
+
   const page = data.pages;
 
   return (
     <S.Container>
       <>
         {page[0].list.length === 0 && <div>빈페이지</div>}
-        {page!.map(({ list: contents }) =>
+        {page.map(({ list: contents }) =>
           contents!.map((content) => {
             return (
               <S.ContentBox key={`${categoryId}_${content.title}`}>
@@ -23,10 +25,11 @@ export default function Contents({ categoryId }: ContentsProps) {
                   <S.ContentTitle>{content.title}</S.ContentTitle>
                   <S.Content>{content.contents}</S.Content>
                   <S.DigitalIndex>
-                    {content.digitalIndex.replace(
-                      /\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g,
-                      ','
-                    )}
+                    {content?.digitalIndex !== '' &&
+                      content.digitalIndex.replace(
+                        /\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g,
+                        ','
+                      )}
                   </S.DigitalIndex>
                 </S.ContentInfoBox>
               </S.ContentBox>

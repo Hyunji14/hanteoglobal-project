@@ -4,7 +4,7 @@ import ChartPage from './chart/ChartPage';
 export default function MainPage() {
   return (
     <>
-      <Category categoryId='0' />
+      <Category categoryId='chart' />
       <ChartPage />
     </>
   );

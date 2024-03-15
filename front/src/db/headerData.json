@@ -1,26 +1,26 @@
 [
   {
-    "_id": "0",
+    "_id": "chart",
     "name": "차트"
   },
   {
-    "_id": "1",
+    "_id": "whook",
     "name": "Whook"
   },
   {
-    "_id": "2",
+    "_id": "event",
     "name": "이벤트"
   },
   {
-    "_id": "3",
+    "_id": "news",
     "name": "뉴스"
   },
   {
-    "_id": "4",
+    "_id": "store",
     "name": "스토어"
   },
   {
-    "_id": "5",
+    "_id": "charge",
     "name": "충전소"
   }
 ]
