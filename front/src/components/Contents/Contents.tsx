@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
 import { Loading } from '../Loading';
+import { Empty } from '../Empty/Empty';
 import { useContents } from './Contents.hooks';
 import * as S from './Contents.styles';
 
@@ -15,7 +15,7 @@ export default function Contents({ categoryId }: ContentsProps) {
   return (
     <S.Container>
       <>
-        {page[0].list.length === 0 && <div>빈페이지</div>}
+        {page[0].list.length === 0 && <Empty />}
         {page.map(({ list: contents }) =>
           contents!.map((content) => {
             return (
