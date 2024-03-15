@@ -5,6 +5,7 @@ const colors = {
   point: '#FF579A',
   pink: '#FF6F80',
   darkbrown: '#994853',
+  brown: '#332126',
   gray: '#E1E1E1',
   darkgray: '#333333',
 };

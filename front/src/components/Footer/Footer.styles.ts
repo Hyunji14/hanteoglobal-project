@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   width: 100%;
   height: 70px;
-  background-color: ${({ theme }) => theme.colors.gray};
+  background-color: ${({ theme }) => theme.colors.brown};
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,7 +11,9 @@ export const Container = styled.div`
 
   p {
     margin-top: 5px;
-    font-size: ${({ theme }) => theme.size.sm}px;
+    color: ${({ theme }) => theme.colors.background};
+    font-size: ${({ theme }) => theme.size.rg}px;
+    font-weight: 700;
   }
 `;
 
@@ -20,7 +22,7 @@ export const TopButton = styled.button`
   height: 30px;
   border-radius: 50%;
   background-color: inherit;
-  border: 1px solid ${({ theme }) => theme.colors.pink};
+  border: 2px solid ${({ theme }) => theme.colors.pink};
   color: ${({ theme }) => theme.colors.pink};
 
   &:hover {
