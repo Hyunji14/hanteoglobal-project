@@ -5,9 +5,9 @@
 * 개발 언어 : Typescript
 * 상태 관리 라이브러리 : React-Query(Tanstack query)
 * 주요 기능
- * 무한 루프 슬라이드 배너 : react-slick
- * 무한 스크롤 컨텐츠 리스트 뷰 : useSuspenseInfiniteQuery, IntersectionObserver
- * footer 최상단 이동 버튼
+  * 무한 루프 슬라이드 배너 : react-slick
+  * 무한 스크롤 컨텐츠 리스트 뷰 : useSuspenseInfiniteQuery, IntersectionObserver
+  * footer 최상단 이동 버튼
 * ${\textsf{\color{red}특이사항}}$
   * <span style='color:red'>프론트엔드 파트 기능 개발 집중을 위해 백엔드 API가 구현되어 있고, 받아온 데이터가 있다는 가정하에 작업했습니다.
   * 백엔드 세팅은 따로 진행하지 않았고, 백엔드에서 받아온 데이터의 형식은 임의로 "db" 디렉터리 내부에 json 파일로 저장해두었습니다.
