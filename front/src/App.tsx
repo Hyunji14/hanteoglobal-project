@@ -1,6 +1,6 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-import { MainPage, CategoryPage, NotFoundPage } from './feature';
+import { MainPage, CategoryPage, NotFoundPage } from './page';
 
 import Layout from './components/Layout/Layout';
 import { PATH } from './global/constants';

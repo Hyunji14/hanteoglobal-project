@@ -1,10 +1,11 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { Link } from 'react-router-dom';
 
 import * as S from './Banner.styles';
 import { useBanner } from './Banner.hook';
-import { Link } from 'react-router-dom';
+import ApiBoundary from '../ApiBoundary/ApiBoundary';
 
 interface BannerProps {
   categoryId: string;
@@ -22,7 +23,15 @@ interface SliderSettings {
   centerPadding: string;
 }
 
-export default function Banner({ categoryId }: BannerProps) {
+export default function Banner(props: BannerProps) {
+  return (
+    <ApiBoundary>
+      <ApiComponent {...props} />
+    </ApiBoundary>
+  );
+}
+
+export function ApiComponent({ categoryId }: BannerProps) {
   const { banners } = useBanner(categoryId);
 
   const settings: SliderSettings = {

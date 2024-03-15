@@ -1,12 +1,21 @@
 import * as S from './Category.styles';
 import { useCategory } from './Category.hooks';
 import { useNavigate } from 'react-router-dom';
+import ApiBoundary from '../ApiBoundary/ApiBoundary';
 
 interface CategoryProps {
   categoryId: string;
 }
 
-export default function Category({ categoryId }: CategoryProps) {
+export default function Category(props: CategoryProps) {
+  return (
+    <ApiBoundary>
+      <ApiComponent {...props} />
+    </ApiBoundary>
+  );
+}
+
+export function ApiComponent({ categoryId }: CategoryProps) {
   const { categories } = useCategory();
   const navigate = useNavigate();
 

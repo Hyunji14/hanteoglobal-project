@@ -1,13 +1,22 @@
-import { Loading } from '../Loading';
+import { Loading } from '../Loading/Loading';
 import { Empty } from '../Empty/Empty';
 import { useContents, useContentTitle } from './Contents.hooks';
 import * as S from './Contents.styles';
+import ApiBoundary from '../ApiBoundary/ApiBoundary';
 
 interface ContentsProps {
   categoryId: string;
 }
 
-export default function Contents({ categoryId }: ContentsProps) {
+export default function Contents(props: ContentsProps) {
+  return (
+    <ApiBoundary>
+      <ApiComponent {...props} />
+    </ApiBoundary>
+  );
+}
+
+export function ApiComponent({ categoryId }: ContentsProps) {
   const { data, setTarget, hasNextPage } = useContents(categoryId);
   const { contentTitle } = useContentTitle(categoryId);
   const page = data.pages;
