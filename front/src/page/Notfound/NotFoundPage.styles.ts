@@ -10,12 +10,12 @@ export const Container = styled.div`
   align-items: center;
   margin: 0 auto;
   box-sizing: border-box;
-
+  text-align: center;
   font-size: 30px;
   font-weight: 600;
 
   button {
-    margin: 10px;
+    margin: 30px;
     background-color: inherit;
     font-size: ${({ theme }) => theme.size.rg}px;
     font-weight: 600;
