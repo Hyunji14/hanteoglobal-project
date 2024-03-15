@@ -25,7 +25,9 @@ export function ApiComponent({ categoryId }: ContentsProps) {
     <S.Container>
       <>
         {page[0].list.length === 0 && <Empty />}
-        <S.ContentViewTitle>{contentTitle.title}</S.ContentViewTitle>
+        {page[0].list.length !== 0 && (
+          <S.ContentViewTitle>{contentTitle.title}</S.ContentViewTitle>
+        )}
         {page.map(({ list: contents }) =>
           contents!.map((content) => {
             return (
@@ -46,6 +48,7 @@ export function ApiComponent({ categoryId }: ContentsProps) {
             );
           })
         )}
+
         {hasNextPage && (
           <div ref={setTarget}>
             <Loading />
