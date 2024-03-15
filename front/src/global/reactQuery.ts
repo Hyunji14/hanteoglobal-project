@@ -12,4 +12,5 @@ export const queryKeys = {
   category: 'CATEGORY',
   banner: 'BANNER',
   contents: 'CONTENT',
+  contentTitle: 'CONTENTTITLE',
 };

@@ -1,8 +1,12 @@
-import { useSuspenseInfiniteQuery } from '@tanstack/react-query';
+import {
+  useSuspenseInfiniteQuery,
+  useSuspenseQuery,
+} from '@tanstack/react-query';
 
 import { queryKeys } from '@/global/reactQuery';
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 import ContentsAPI from './Contents.api';
+import { ContentTitleType } from './Contents.type';
 
 export const useContents = (categoryId: string) => {
   const results = useSuspenseInfiniteQuery({
@@ -22,4 +26,13 @@ export const useContents = (categoryId: string) => {
   });
 
   return { ...results, setTarget };
+};
+
+export const useContentTitle = (categoryId: string) => {
+  const { data: contentTitle } = useSuspenseQuery<ContentTitleType, Error>({
+    queryKey: [queryKeys.contentTitle, categoryId],
+    queryFn: () => ContentsAPI.getContentTitle(categoryId),
+  });
+
+  return { contentTitle };
 };

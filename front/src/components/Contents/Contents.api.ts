@@ -1,4 +1,5 @@
 import data from '../../db/contentsData.json';
+import titleData from '../../db/contentsTitleData.json';
 
 const ContentsAPI = {
   async getContents({
@@ -18,6 +19,11 @@ const ContentsAPI = {
       list: contents?.slice(cursor, cursor + limit),
       nextCursor: cursor + limit,
     };
+  },
+
+  async getContentTitle(categoryId: string) {
+    const title = titleData.filter((item) => item.categoryId === categoryId);
+    return title[0];
   },
 };
 

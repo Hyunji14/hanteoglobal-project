@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "2398u",
+    "categoryId": "chart",
+    "title": "Digital Album chart"
+  },
+  {
+    "_id": "20skd",
+    "categoryId": "whook",
+    "title": "Let's Chat!"
+  },
+  {
+    "_id": "89uvw",
+    "categoryId": "event",
+    "title": "다양한 이벤트 놓치지 마세요!"
+  },
+  {
+    "_id": "92ouf",
+    "categoryId": "news",
+    "title": "NEWS"
+  },
+  {
+    "_id": "209ek",
+    "categoryId": "store",
+    "title": "마켓 리스트"
+  },
+  {
+    "_id": "wp92",
+    "categoryId": "charge",
+    "title": "충전 아이템"
+  }
+]

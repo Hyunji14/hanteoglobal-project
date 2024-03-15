@@ -6,7 +6,12 @@ export const Container = styled.div`
   margin-top: 35px;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
+`;
+
+export const ContentViewTitle = styled.div`
+  font-weight: 700;
+  color: ${({ theme }) => theme.colors.point};
+  margin: 10px 15px;
 `;
 
 export const ContentBox = styled.div`

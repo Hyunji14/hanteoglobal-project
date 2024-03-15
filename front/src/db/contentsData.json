@@ -3,90 +3,105 @@
     "categoryId": "chart",
     "list": [
       {
+        "_id": "asdf",
         "title": "밤양갱",
         "contents": "BIBI",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9974.75"
       },
       {
+        "_id": "as22d",
         "title": "첫 만남은 계획되로 되지 않아",
         "contents": "TWS",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9899.00"
       },
       {
+        "_id": "asdf31",
         "title": "나는 아픈 건 딱 질색이니까",
         "contents": "(G)I-DLE",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9823.25"
       },
       {
+        "_id": "aegf1",
         "title": "EASY",
         "contents": "LE SSERAFIM",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9671.75"
       },
       {
+        "_id": "asd209f",
         "title": "Love wins all",
         "contents": "IU",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9570.73"
       },
       {
+        "_id": "a12bsdf",
         "title": "홀씨",
         "contents": "IU",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9469.68"
       },
       {
+        "_id": "asdllf",
         "title": "To. X",
         "contents": "TAEYEON",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9318.15"
       },
       {
+        "_id": "asdf02l",
         "title": "비의 랩소디",
         "contents": "임재현",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "9141.40"
       },
       {
+        "_id": "asdf20",
         "title": "Perfect Night",
         "contents": "LE SSERAFIM",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "8964.65"
       },
       {
+        "_id": "pqpvie",
         "title": "Love 119",
         "contents": "RIIZE",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "8661.60"
       },
       {
+        "_id": "asdw9",
         "title": "헤어지자 말해요",
         "contents": "박재정",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "8358.58"
       },
       {
+        "_id": "apw0v",
         "title": "에피소드",
         "contents": "이무진",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "8333.33"
       },
       {
+        "_id": "9g93j",
         "title": "Wife",
         "contents": "(G)I-DLE",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "8282.83"
       },
       {
+        "_id": "f0f3j",
         "title": "Shopper",
         "contents": "IU",
         "imgUrl": "src/assets/img/logo.png",
         "digitalIndex": "8257.58"
       },
       {
+        "_id": "af9w9u0f",
         "title": "Smart",
         "contents": "LE SSERAFIM",
         "imgUrl": "src/assets/img/logo.png",
@@ -98,42 +113,49 @@
     "categoryId": "whook",
     "list": [
       {
+        "_id": "asd239",
         "title": "[공지] 서비스 점검 안내1",
         "contents": "안정적인 서비스 제공을 위해 시스템 점검 예정",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "asdf23d",
         "title": "[공지] 서비스 점검 안내2",
         "contents": "안정적인 서비스 제공을 위해 서비스 점검 예정",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "asdff01",
         "title": "[공지] 시스템 점검 안내3",
         "contents": "안정적인 서비스 제공을 위해 시스템 점검 예정",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "asd23ff",
         "title": "[공지] 뉴스레트 일시 중단 안내",
         "contents": "서비스 최신화를 위한 중단 예정",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "asdfe029",
         "title": "[공지] 새롭게 추가된 기능, '나의 QR 코드",
         "contents": "후즈팬 계정 인증을 위한 일회성 QR 코드",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "asdfh949",
         "title": "[공지] 후즈팬 앱 채팅 기능 '훅(WhooK)' 베타 서비스 안내",
         "contents": "채팅 기능 베타 서비스 오픈",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "hii98f",
         "title": "[공지] 시스템 점검 안내4",
         "contents": "안정적인 서비스 제공을 위해 시스템 점검 예정",
         "imgUrl": "src/assets/img/whook.png",
@@ -145,36 +167,42 @@
     "categoryId": "event",
     "list": [
       {
+        "_id": "a390f",
         "title": "VANNER x PICK YOUR SNACK! 당첨자 발표",
         "contents": "시청 인증 이벤트 당첨자를 발표",
         "imgUrl": "src/assets/img/whosfan3.jpeg",
         "digitalIndex": ""
       },
       {
+        "_id": "asd20397",
         "title": "[안내] 이벤트 유의 사항",
         "contents": "이벤트 참여와 관련하여 유의사항 안내",
         "imgUrl": "src/assets/img/whosfan3.jpeg",
         "digitalIndex": ""
       },
       {
+        "_id": "a2345df",
         "title": "후즈팬 스토어 베타 오픈 기념 이벤트",
         "contents": "사전 가입 이벤트 진행",
         "imgUrl": "src/assets/img/whosfan3.jpeg",
         "digitalIndex": ""
       },
       {
+        "_id": "asd2oighif",
         "title": "전국 생일 자랑 광고 진행 및 시안 안내",
         "contents": "생일 자랑 광고 진행&시안 이벤트",
         "imgUrl": "src/assets/img/whosfan3.jpeg",
         "digitalIndex": ""
       },
       {
+        "_id": "asdf2g9",
         "title": "안드로이드 신규 앱 계정 연동",
         "contents": "계정 연동 시 크레딧 증정 이벤트",
         "imgUrl": "src/assets/img/whosfan3.jpeg",
         "digitalIndex": ""
       },
       {
+        "_id": "asdf2309g",
         "title": "우주소녀 쪼꼬미 광고 영상 인증 이벤트",
         "contents": "인증 이벤트 당첨자 발표",
         "imgUrl": "src/assets/img/whosfan3.jpeg",
@@ -186,36 +214,42 @@
     "categoryId": "news",
     "list": [
       {
+        "_id": "asdf2g8",
         "title": "위펜콘 1차 라인업 공개..",
         "contents": "위펜콘 1차 라인업 공개",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "asdf209fk",
         "title": "[GOING SEVENTEEN] 전격 분석!",
         "contents": "Say the name! SEVENTEEN!",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "0we8gj",
         "title": "후즈팬! 국경 넘은 덕친 모였다!",
         "contents": "훅(Whook)으로 만나는 글로벌 팬덤 채팅!",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "48208sf",
         "title": "위펜콘 2차 라인업 공개..",
         "contents": "위펜콘 2차 라인업 공개",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "s9ro28f",
         "title": "[GOING SEVENTEEN] 전격 분석2!",
         "contents": "Say the name! SEVENTEEN!",
         "imgUrl": "src/assets/img/whook.png",
         "digitalIndex": ""
       },
       {
+        "_id": "a2357sdf",
         "title": "후즈팬! 국경 넘은 덕친 모였다!!",
         "contents": "훅(Whook)으로 만나는 글로벌 팬덤 채팅!",
         "imgUrl": "src/assets/img/whook.png",
@@ -225,7 +259,43 @@
   },
   {
     "categoryId": "store",
-    "list": []
+    "list": [
+      {
+        "_id": "a2357sdf",
+        "title": "모켓샵",
+        "contents": "12111개의 상품",
+        "imgUrl": "src/assets/img/logo_2.png",
+        "digitalIndex": ""
+      },
+      {
+        "_id": "a67sdf",
+        "title": "뮤직스케일",
+        "contents": "11009개의 상품",
+        "imgUrl": "src/assets/img/logo_2.png",
+        "digitalIndex": ""
+      },
+      {
+        "_id": "2398k0",
+        "title": "신스마켓",
+        "contents": "1000개의 상품",
+        "imgUrl": "src/assets/img/logo_2.png",
+        "digitalIndex": ""
+      },
+      {
+        "_id": "20ighjfeu",
+        "title": "BEATROAD",
+        "contents": "992개의 상품",
+        "imgUrl": "src/assets/img/logo_2.png",
+        "digitalIndex": ""
+      },
+      {
+        "_id": "29jk8wj",
+        "title": "MokketShop Beauty",
+        "contents": "788개의 상품",
+        "imgUrl": "src/assets/img/logo_2.png",
+        "digitalIndex": ""
+      }
+    ]
   },
   {
     "categoryId": "charge",
