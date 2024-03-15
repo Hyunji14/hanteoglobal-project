@@ -9,9 +9,13 @@ export const Container = styled.div`
 `;
 
 export const ContentViewTitle = styled.div`
+  height: 30px;
   font-weight: 700;
-  color: ${({ theme }) => theme.colors.point};
-  margin: 10px 15px;
+  background-color: ${({ theme }) => theme.colors.pink};
+  color: ${({ theme }) => theme.colors.background};
+  text-align: left;
+  padding: 10px;
+  margin: 10px 0;
 `;
 
 export const ContentBox = styled.div`
