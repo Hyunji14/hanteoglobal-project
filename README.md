@@ -1,10 +1,9 @@
 ## [HANTEO] Front-end 코딩 테스트 : React로 구현하는 콘텐츠 뷰
 ### **1. 프로젝트 정보 🔖**
-* 패키지 설치 도구 : yarn 
+* 패키지 설치 및 개발 도구 : yarn + vscode
 * 프레임워크 : React
 * 개발 언어 : Typescript
 * 상태 관리 라이브러리 : React-Query(Tanstack query)
-* 
 * 주요 기능
  * 무한 루프 슬라이드 배너 : react-slick
  * 무한 스크롤 컨텐츠 리스트 뷰 : useSuspenseInfiniteQuery, IntersectionObserver
