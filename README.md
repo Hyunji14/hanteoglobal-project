@@ -1,12 +1,13 @@
 ## [HANTEO] Front-end 코딩 테스트 : React로 구현하는 콘텐츠 뷰
-### **1. 프로젝트 정보**
+### **1. 프로젝트 정보 🔖**
 * 패키지 설치 도구 : yarn 
 * 프레임워크 : React
 * 개발 언어 : Typescript
 * 상태 관리 라이브러리 : React-Query(Tanstack query)
+* 
 * 주요 기능
- * 무한 루프 슬라이드 배너
- * 무한 스크롤 컨텐츠 리스트 뷰
+ * 무한 루프 슬라이드 배너 : react-slick
+ * 무한 스크롤 컨텐츠 리스트 뷰 : useSuspenseInfiniteQuery, IntersectionObserver
  * footer 최상단 이동 버튼
 * ${\textsf{\color{red}특이사항}}$
   * <span style='color:red'>프론트엔드 파트 기능 개발 집중을 위해 백엔드 API가 구현되어 있고, 받아온 데이터가 있다는 가정하에 작업했습니다.
@@ -14,7 +15,7 @@
   * 이후에 백엔드와 연결할 때, API 사용이 원활하도록 각 기능별로 API를 사용하도록 설계했습니다.
 
   
-### **2. 프로젝트 구조 설계**
+### **2. 프로젝트 구조 설계 ⚒**
 ```
 src
  ┣ assets
@@ -54,12 +55,12 @@ src
   * 각 컨텐츠의 리스트 뷰 : 무한스크롤 방식
     * 최초에 5개의 데이터를 가져고, 최하단의 div에 도달했을때 observer를 활용하여 다음 데이터를 불러오는 형식으로 기능을 구현했습니다.
 
-### **3. 프로젝트 설치 및 실행**## 
+### **3. 프로젝트 설치 및 실행 ⚙️**## 
 ```
 yarn
 yarn dev
 ```
 
-### **4. 구현 화면**
+### **4. 구현 화면 🪄**
 <img width="979" alt="image" src="https://github.com/Hyunji14/hanteoglobal-project/assets/17976486/ca06ba27-ebc9-4242-ac37-d8b6567055d8">
 
