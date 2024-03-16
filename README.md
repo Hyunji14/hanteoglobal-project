@@ -4,6 +4,7 @@
 * 프레임워크 : React
 * 개발 언어 : Typescript
 * 상태 관리 라이브러리 : React-Query(Tanstack query)
+* 스타일 적용: styled-component 
 * 주요 기능
   * 무한 루프 슬라이드 배너 : react-slick
   * 무한 스크롤 컨텐츠 리스트 뷰 : useSuspenseInfiniteQuery, IntersectionObserver
